@@ -25,7 +25,6 @@ int WaysToMakeChange( int arr[], int len, int sum )
 
 int main()
 {
-	int i, j;
 	int arr[] = {1, 2, 3};
 	int arrLen = sizeof(arr)/sizeof(arr[0]);
 	printf("%d ", WaysToMakeChange(arr, arrLen, 4));
